@@ -7,8 +7,8 @@
 ## Usage
 
 ```typescript
-import ProgressBar from "./progressbar.ts";
-import { percentageWidget, amountWidget } from "./widgets.ts";
+import ProgressBar from "https://deno.land/x/progressbar/progressbar.ts";
+import { percentageWidget, amountWidget } from "https://deno.land/x/progressbar/widgets.ts";
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
